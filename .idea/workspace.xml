@@ -50,7 +50,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TodoWebSocketHandler">
     <configuration name="TodoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.todo.TodoApplication" />
       <module name="prjtodoprj" />
@@ -64,8 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodoWebSocketHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.todo.handler.TodoWebSocketHandler" />
+      <module name="prjtodoprj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.todo.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TodoWebSocketHandler" />
         <item itemvalue="Application.TodoApplication" />
       </list>
     </recent_temporary>
@@ -79,6 +93,14 @@
       <option name="presentableId" value="Default" />
       <updated>1753372915513</updated>
     </task>
+    <task id="LOCAL-00001" summary="added websocket code for todo">
+      <created>1753456797798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753456797798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +113,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added websocket code for todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="added websocket code for todo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -107,7 +133,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/todo/handler/TodoWebSocketHandler.java</url>
-          <line>36</line>
+          <line>35</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
